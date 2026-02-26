@@ -98,6 +98,9 @@ function validateEnv() {
     if (!env.DATABASE_URL) errs.push('DATABASE_URL is required in production');
     if (!env.REDIS_URL) errs.push('REDIS_URL is required in production');
     if (!env.SESSION_SECRET || String(env.SESSION_SECRET).length < 32) errs.push('SESSION_SECRET must be at least 32 chars in production');
+    if (!env.FRONTEND_BUILDER_BASE_URL || /localhost|127\.0\.0\.1/i.test(String(env.FRONTEND_BUILDER_BASE_URL))) {
+      errs.push('FRONTEND_BUILDER_BASE_URL is required in production (must be reachable from the user-api service)');
+    }
   } else {
     if (!env.DATABASE_URL) warns.push('DATABASE_URL is empty (dev) — set to local Postgres to persist data');
     if (!env.REDIS_URL) warns.push('REDIS_URL is empty (dev) — set to local Redis for rate limits/sessions');
