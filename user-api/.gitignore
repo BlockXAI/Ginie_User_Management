@@ -1,0 +1,172 @@
+# # ----------------------------------
+# # Node + Next.js + TypeScript
+# # ----------------------------------
+# node_modules/
+# .next/
+# .next-static/
+# .next/cache/
+# out/
+# dist/
+# build/
+# *.tsbuildinfo
+
+# # App-router Server/Edge Functions cache
+# .next/server/
+# .next/standalone/
+
+# # ----------------------------------
+# # Environment Variables
+# # ----------------------------------
+# .env
+# .env.*.local
+# .env.local
+# .env.development.local
+# .env.production.local
+# .env.test.local
+# *.env
+
+# # ----------------------------------
+# # Logs & Debug
+# # ----------------------------------
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# pnpm-debug.log*
+# logs/
+# *.log
+# debug.log
+# error.log
+
+# # ----------------------------------
+# # OS Files
+# # ----------------------------------
+# .DS_Store
+# .DS_Store?
+# .AppleDouble
+# .LSOverride
+# Thumbs.db
+# ehthumbs.db
+# Desktop.ini
+# $RECYCLE.BIN/
+
+# # ----------------------------------
+# # Editors / IDE
+# # ----------------------------------
+# .vscode/
+# .idea/
+# *.swp
+# *.swo
+
+# # JetBrains
+# *.iml
+
+# # ----------------------------------
+# # Package Managers
+# # ----------------------------------
+# .pnpm-store/
+# .yarn/*
+# .yarnrc
+# .yarn/cache
+# .yarn/install-state.gz
+# .yarn/unplugged
+# .yarn/build-state.yml
+
+# # ----------------------------------
+# # Local caches
+# # ----------------------------------
+# .cache/
+# .next/cache/
+# .vercel/
+# .swr-cache/
+# react-query-cache/
+# coverage/
+
+# # Turborepo / Nx
+# turbo/
+# nx-out/
+# nx-outputs/
+
+# # ----------------------------------
+# # Lint / Prettier
+# # ----------------------------------
+# .eslintcache
+# .stylelintcache
+
+# # ----------------------------------
+# # Build Artifacts (General)
+# # ----------------------------------
+# *.out
+# tmp/
+# temp/
+
+# # ----------------------------------
+# # Hardhat / Solidity / Web3
+# # (You run Solidity compilation in AI pipeline jobs)
+# # ----------------------------------
+# artifacts/
+# cache/
+# typechain/
+# typechain-types/
+# coverage/
+# coverage.json
+
+# # Foundry
+# foundry.toml
+# forge-artifacts/
+# forge-cache/
+
+# # Solc output
+# *.bin
+# *.abi
+
+# # ----------------------------------
+# # Next.js / React Static Export
+# # ----------------------------------
+# export/
+# out/
+
+# # ----------------------------------
+# # Testing
+# # ----------------------------------
+# jest-cache/
+# jest-results.json
+# test-results.xml
+# playwright-report/
+# test-output/
+
+# # ----------------------------------
+# # Local Security
+# # ----------------------------------
+# *.pem
+# *.key
+# *.p12
+# *.crt
+# *.cert
+# *.token
+# *.auth
+# *.cache
+
+# # ----------------------------------
+# # Binary/Temp
+# # ----------------------------------
+# *.tmp
+# *.bak
+# *.backup
+# *.orig
+
+# # ----------------------------------
+# # Storybook (if used)
+# # ----------------------------------
+# storybook-static/
+# .storybook/out/
+
+# # ----------------------------------
+# # Misc
+# # ----------------------------------
+# *.trace
+# *.pid
+# *.pid.lock
+
+# # Local LLM/AI tools (Claude/OpenAI logs etc)
+# .ai-cache/
+# .llm/

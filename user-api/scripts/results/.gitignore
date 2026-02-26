@@ -1,0 +1,4 @@
+# Ignore all test results except this file
+*
+!.gitignore
+!.gitkeep
